@@ -11,6 +11,7 @@ A Sitecore Helix based solution which can be used for Greenfield projects. Tackl
 * Unicorn - including user and role sync
 * Sitecore 9.2 ready
 * Bootstrap v4
+* Sublayouts - A dynamic sublayout foundation project
 * Native dependency injection with auto controller registration
 * A sample hero banner feature and sample site project for demonstration
 * Generic content repositories (by Rendering, Item Context, or Glass Content)
