@@ -1,8 +1,8 @@
 ﻿---
-ID: "b978393b-a812-44f5-bba8-b103bf6a4a66"
-Parent: "b87cd5f0-4e72-429d-90a3-b285f1d038ca"
+ID: "b4e81821-508f-47d6-8fa7-c2bc3402fa4a"
+Parent: "08477468-d438-43d4-9d6a-6d84a611971c"
 Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: /sitecore/layout/Models/Foundation
+Path: /sitecore/system/Modules/Foundation
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
@@ -14,5 +14,4 @@ Languages:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20170212T152212Z
+      Value: "20190812T152149:637012201098743820Z"

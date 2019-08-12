@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace Helixbase.Foundation.Sublayouts.Models.Parameters
 {
     [SitecoreType(AutoMap = true)]
-    public interface ISharedColumnParameters : ISitecoreItem
+    public interface ISharedColumnParameters : IGlassBase
     {   
         int Columns { get; set; }
         bool HideRow { get; set; }
