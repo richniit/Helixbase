@@ -1,3 +1,5 @@
+This is a of [Nick Shack's Helix Base](https://github.com/muso31/Helixbase). Solution has been updated to Sitecore v9.2.
+
 <img src="https://nshackblog.files.wordpress.com/2017/02/helixbase1.png" height="154px" width="200px" /><br />
 A Sitecore Helix based solution which can be used for Greenfield projects. Tackles some common problems when working with the platform.
 
@@ -7,7 +9,7 @@ A Sitecore Helix based solution which can be used for Greenfield projects. Tackl
 
 * Glass Mapper v5 - with fluent configuration and automated mapping registration
 * Unicorn - including user and role sync
-* Sitecore 9.1 ready
+* Sitecore 9.2 ready
 * Bootstrap v4
 * Native dependency injection with auto controller registration
 * A sample hero banner feature and sample site project for demonstration
