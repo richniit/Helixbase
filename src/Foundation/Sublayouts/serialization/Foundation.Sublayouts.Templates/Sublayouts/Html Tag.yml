@@ -1,0 +1,18 @@
+﻿---
+ID: "2cfdaf3a-611d-41f6-bfcb-ceacbdbee581"
+Parent: "76dd09b1-1c34-43ca-b6fd-e128f0e359f6"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/Sublayouts/Html Tag
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180211T133936Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

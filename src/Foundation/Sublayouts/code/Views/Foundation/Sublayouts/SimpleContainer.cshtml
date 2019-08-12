@@ -1,0 +1,44 @@
+﻿@using Helixbase.Foundation.SitecoreExtensions.Repositories
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+
+@model Helixbase.Foundation.Sublayouts.Models.ViewModels.SimpleContainerViewModel
+
+@Html.Sitecore().DynamicPlaceholder("gridcontainer", CreateWrapper)
+
+@functions
+{
+    HtmlString CreateWrapper(HtmlString htmlString, DynamicPlaceholderRenderContext context)
+    {
+        var hideContainer = Model.GlassModel.HideContainer;
+        var containerId = Model.GlassModel.ContainerId;
+        var htmlTagItem = Model.GlassModel.ContainerTag;
+        var htmlTag = htmlTagItem == null ? "div" : htmlTagItem.HtmlTag;
+
+
+        // Return just the placeholder with no markup
+        if (hideContainer && !Sitecore.Context.PageMode.IsExperienceEditor)
+            return new HtmlString(htmlString.ToHtmlString());
+
+        // In Experience Editor we always need a container div or it breaks
+        var tagBuilder = new TagBuilder(htmlTag);
+
+        // Will only add custom classes if container is not hidden
+        if (!hideContainer)
+        {
+            if (Model.GlassModel.CssClasses != null)
+            {
+                tagBuilder.AddCssClass(Model.CssClassRepository.GetInlineCssClasses(Model.GlassModel.CssClasses));
+            }
+
+            if (!string.IsNullOrEmpty(containerId))
+            {
+                tagBuilder.Attributes["id"] = containerId;
+            }
+        }
+
+        // Return HTML generated
+        tagBuilder.InnerHtml = htmlString.ToHtmlString();
+        return new HtmlString(tagBuilder.ToString(TagRenderMode.Normal));
+    }
+}

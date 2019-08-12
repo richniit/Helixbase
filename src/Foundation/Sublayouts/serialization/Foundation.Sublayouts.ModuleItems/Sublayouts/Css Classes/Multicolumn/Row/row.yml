@@ -1,0 +1,17 @@
+﻿---
+ID: "224fa8ae-db7f-43e9-b6d9-3e7311cab42e"
+Parent: "c1b345a6-09f2-428a-84bb-1dd961a3328d"
+Template: "c49d922d-69c3-4027-8298-c0b07e43dfe7"
+Path: /sitecore/system/Modules/Foundation/Sublayouts/Css Classes/Multicolumn/Row/row
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180118T210252Z
+    - ID: "f4f3cf95-ee5a-49d4-9c05-e4e49bd33b68"
+      Hint: Css Class
+      Value: row

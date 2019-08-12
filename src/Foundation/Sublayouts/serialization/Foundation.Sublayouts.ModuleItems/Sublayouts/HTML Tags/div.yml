@@ -1,0 +1,17 @@
+﻿---
+ID: "a642f42f-fbc4-4d0b-a9a5-951bb64274c6"
+Parent: "a01db71b-8c01-4b43-b82a-58292bae3014"
+Template: "0c658a14-a7f9-4fa4-ba98-7ed581f94888"
+Path: /sitecore/system/Modules/Foundation/Sublayouts/HTML Tags/div
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180211T134832Z
+    - ID: "e8a6bf20-aa31-4a9d-ad23-b6573cd52514"
+      Hint: Html Tag
+      Value: div

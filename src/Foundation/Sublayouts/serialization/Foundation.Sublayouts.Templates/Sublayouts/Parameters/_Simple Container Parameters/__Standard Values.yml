@@ -1,0 +1,25 @@
+﻿---
+ID: "81f59b32-eb16-4886-b3ca-16083c23d107"
+Parent: "febac1d8-721f-4f5b-9f63-9bd2789ef913"
+Template: "febac1d8-721f-4f5b-9f63-9bd2789ef913"
+Path: /sitecore/templates/Foundation/Sublayouts/Parameters/_Simple Container Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24bf21c5-f2c0-4d82-b261-e1157269b5c3"
+      Hint: ContainerTag
+      Value: "{A642F42F-FBC4-4D0B-A9A5-951BB64274C6}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180117T201705Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "d3af9d43-b373-4537-b3cc-69dec5fb19b7"
+      Hint: CssClasses
+      Type: Multilist
+      Value: "{22742281-4D35-4719-B008-D4B2BDF74653}"

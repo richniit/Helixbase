@@ -1,0 +1,55 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+
+
+@model Helixbase.Foundation.Sublayouts.Models.ViewModels.MulticolumnViewModel
+
+@{
+    // Number of Columns
+    //var parameterTemplatesProvider = new ParameterTemplatesProvider();
+    //var columns = parameterTemplatesProvider.GetParameter<int>(RenderingContext.Current.Rendering.RenderingItem, "columns");
+
+    var columns = Model.GlassModel.Columns;
+    if (columns == 0)
+    {
+        columns = 2;
+    }
+}
+
+@Html.Sitecore().DynamicPlaceholder("gridcolumn", CreateWrapper, columns)
+
+@functions
+{
+    //private readonly ICssClassRepository _cssClassProvider = new CssClassRepository();
+    //private readonly IParameterTemplatesProvider _parameterTemplatesService = new ParameterTemplatesProvider();
+
+    HtmlString CreateWrapper(HtmlString htmlString, DynamicPlaceholderRenderContext context)
+    {
+        var isFirstColumn = context.Index == 0;
+        var isLastColumn = context.Index == context.PlaceholdersCount - 1;
+        var hideRow = Model.GlassModel.HideRow;
+
+        // Make column
+        var placeholderContainer = new TagBuilder("div");
+        placeholderContainer.AddCssClass(Model.CssClassRepository.GetIndividualClass(Model.GlassModel.IndividualColumnCssClasses, context.Index) + Model.CssClassRepository.GetInlineCssClasses(Model.GlassModel.ColumnCssClasses));
+        // Put the placeholder inside the container
+        placeholderContainer.InnerHtml = htmlString.ToHtmlString();
+
+        // Output HTML
+        var outputHtml = placeholderContainer.ToString(TagRenderMode.Normal);
+
+        // Row HTML
+        if (isFirstColumn && (!hideRow || Sitecore.Context.PageMode.IsExperienceEditorEditing))
+        {
+            var rowHtml = "<div ";
+            if (!hideRow)
+                rowHtml += "class=\"" + Model.CssClassRepository.GetInlineCssClasses(Model.GlassModel.RowCssClasses) + "\"";
+            rowHtml += ">";
+            outputHtml = rowHtml + outputHtml;
+        }
+        if (isLastColumn && (!hideRow || Sitecore.Context.PageMode.IsExperienceEditorEditing))
+            outputHtml += "</div>";
+
+        return new HtmlString(outputHtml);
+    }
+}

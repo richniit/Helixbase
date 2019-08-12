@@ -1,0 +1,56 @@
+﻿---
+ID: "ee586ca1-a9fa-44e8-9d08-61db9bfd8e34"
+Parent: "74dee8c7-e73f-4c2b-95ac-0f10a26f0340"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/Foundation/Sublayouts/Four Column Unresponsive Container
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Imaging/32x32/mask_square.png
+- ID: "13f89250-ad6b-4548-882e-118a12c18094"
+  Hint: Parameters Template
+  Value: "{AD3EE504-C109-46AA-9689-4C7881FC09E4}"
+- ID: "a2f5d9df-8cba-4a1d-99eb-51acb94cb057"
+  Hint: Page Editor Buttons
+  Type: Treelist
+  Value: "{BBD9D89F-F6EC-4383-8CA2-2114BEE1EBF9}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 800
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{ED391539-C1E2-42A5-AFF4-455847540BDD}" />
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: MultiColumn
+- ID: "e144d9d4-b135-42d4-a5a0-53c09704671c"
+  Hint: Parameters
+  Value: columns=4
+- ID: "e441abe7-2ca3-4640-ae26-3789967925d7"
+  Hint: Compatible Renderings
+  Type: Treelist
+  Value: |
+    {085F1317-6227-4BC2-B54D-568CB34F29DF}
+    {FAF9023B-D94A-4715-9CEE-25F900D44722}
+    {85067088-8225-4D30-A7F0-B529D439BAD1}
+    {8F3F7A80-E554-41BE-A7B7-9978199D1718}
+    {4F7B4526-CC8D-4F8B-9ABD-9E06097A5079}
+    {3E4B762A-062E-491C-AAD4-22379EAEA621}
+    {A4AACFA0-6647-49A6-9FB9-2810933355FD}
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Sublayouts
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180117T171954Z

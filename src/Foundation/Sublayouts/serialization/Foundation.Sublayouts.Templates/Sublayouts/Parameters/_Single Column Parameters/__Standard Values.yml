@@ -1,0 +1,18 @@
+﻿---
+ID: "2466d0d1-ab02-4d81-aee5-f894c39fbdd9"
+Parent: "13dd7f49-ddea-421b-b2e1-ed867c8e313e"
+Template: "13dd7f49-ddea-421b-b2e1-ed867c8e313e"
+Path: /sitecore/templates/Foundation/Sublayouts/Parameters/_Single Column Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ce9031b-ff0b-451c-8879-d4ac55d5574e"
+      Hint: ColumnCssClasses
+      Type: Multilist
+      Value: "{0E251B33-C7B5-4C59-98D9-6A9B9E9C5045}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180119T150609Z

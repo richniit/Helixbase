@@ -1,0 +1,25 @@
+﻿---
+ID: "80e1025d-c216-4074-8f15-79417221e9bb"
+Parent: "cc9a0249-8bcc-4863-ab2e-ce312bf7d02b"
+Template: "cc9a0249-8bcc-4863-ab2e-ce312bf7d02b"
+Path: /sitecore/templates/Foundation/Sublayouts/Css Class Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {CC9A0249-8BCC-4863-AB2E-CE312BF7D02B}
+    {C49D922D-69C3-4027-8298-C0B07E43DFE7}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180117T204028Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

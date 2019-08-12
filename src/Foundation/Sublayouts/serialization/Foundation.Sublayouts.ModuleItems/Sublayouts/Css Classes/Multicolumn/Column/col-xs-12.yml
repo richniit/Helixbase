@@ -1,0 +1,21 @@
+﻿---
+ID: "79989f88-adcf-4352-944f-5929d55ecdda"
+Parent: "92332bc1-54a5-4342-b879-5574fd580ed2"
+Template: "c49d922d-69c3-4027-8298-c0b07e43dfe7"
+Path: "/sitecore/system/Modules/Foundation/Sublayouts/Css Classes/Multicolumn/Column/col-xs-12"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180119T144241Z
+    - ID: "f4f3cf95-ee5a-49d4-9c05-e4e49bd33b68"
+      Hint: Css Class
+      Value: "col-xs-12"

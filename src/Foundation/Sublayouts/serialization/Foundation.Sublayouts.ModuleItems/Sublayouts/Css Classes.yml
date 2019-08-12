@@ -1,0 +1,14 @@
+﻿---
+ID: "d0ab092e-8a84-44a0-a5c5-67c6d722cdac"
+Parent: "7edde1c0-097a-4326-b8d7-70ba8ffca1de"
+Template: "cc9a0249-8bcc-4863-ab2e-ce312bf7d02b"
+Path: /sitecore/system/Modules/Foundation/Sublayouts/Css Classes
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180117T205149Z

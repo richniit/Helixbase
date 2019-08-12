@@ -1,0 +1,14 @@
+﻿---
+ID: "a01db71b-8c01-4b43-b82a-58292bae3014"
+Parent: "7edde1c0-097a-4326-b8d7-70ba8ffca1de"
+Template: "038224e8-f83b-48d0-990d-044d164cab1e"
+Path: /sitecore/system/Modules/Foundation/Sublayouts/HTML Tags
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180211T134816Z

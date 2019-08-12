@@ -1,0 +1,29 @@
+﻿---
+ID: "aa010815-28d8-4c28-ad4d-7ab56563e95c"
+Parent: "b0a34f4d-ec41-41c4-a9ab-6b8bdaceee40"
+Template: "b0a34f4d-ec41-41c4-a9ab-6b8bdaceee40"
+Path: /sitecore/templates/Foundation/Sublayouts/Parameters/_Main with Rails Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180119T153728Z
+    - ID: "442121eb-ee06-4169-ad70-ef7f231639b2"
+      Hint: ph_gridcolumn_2_ColumnCssClasses
+      Type: Multilist
+      Value: "{A89AE48C-1DF4-4D59-96F3-1945E8413D17}"
+    - ID: "517bf3bf-83cc-4704-bce2-7bc9a87540b2"
+      Hint: Columns
+      Value: 3
+    - ID: "58e01da3-8fed-45c6-90fe-3aae99b257c7"
+      Hint: ph_gridcolumn_1_ColumnCssClasses
+      Type: Multilist
+      Value: "{DDCFC7ED-8D43-4843-9283-C818361F3F07}"
+    - ID: "ab763b18-ed29-4568-8f68-546d27082994"
+      Hint: ph_gridcolumn_0_ColumnCssClasses
+      Type: Multilist
+      Value: "{A89AE48C-1DF4-4D59-96F3-1945E8413D17}"

@@ -1,0 +1,18 @@
+﻿---
+ID: "730989c3-d234-4e6e-8b80-1b9fe3207107"
+Parent: "9bed3e1e-c505-4459-b8bf-e594f7c98802"
+Template: "9bed3e1e-c505-4459-b8bf-e594f7c98802"
+Path: /sitecore/templates/Foundation/Sublayouts/Parameters/_Fifty Fifty Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ce9031b-ff0b-451c-8879-d4ac55d5574e"
+      Hint: ColumnCssClasses
+      Type: Multilist
+      Value: "{E5CDFB2A-54D2-4790-8AD6-1436EE73C587}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180119T153140Z

@@ -1,0 +1,33 @@
+﻿---
+ID: "af2d1160-2a32-4ceb-9cc9-9d39a8c6b7ad"
+Parent: "070ec74f-b353-44da-9913-51d2e0bc0e8e"
+Template: "070ec74f-b353-44da-9913-51d2e0bc0e8e"
+Path: /sitecore/templates/Foundation/Sublayouts/Parameters/_Three Columns Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180117T201705Z
+    - ID: "442121eb-ee06-4169-ad70-ef7f231639b2"
+      Hint: ph_gridcolumn_2_ColumnCssClasses
+      Type: Multilist
+      Value: "{7964F541-1929-459F-BA82-7E613A69DA0F}"
+    - ID: "517bf3bf-83cc-4704-bce2-7bc9a87540b2"
+      Hint: Columns
+      Value: 3
+    - ID: "58e01da3-8fed-45c6-90fe-3aae99b257c7"
+      Hint: ph_gridcolumn_1_ColumnCssClasses
+      Type: Multilist
+      Value: "{7964F541-1929-459F-BA82-7E613A69DA0F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ab763b18-ed29-4568-8f68-546d27082994"
+      Hint: ph_gridcolumn_0_ColumnCssClasses
+      Type: Multilist
+      Value: "{7964F541-1929-459F-BA82-7E613A69DA0F}"

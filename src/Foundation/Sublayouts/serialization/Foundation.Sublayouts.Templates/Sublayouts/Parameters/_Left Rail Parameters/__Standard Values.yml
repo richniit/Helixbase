@@ -1,0 +1,22 @@
+﻿---
+ID: "37da08ce-7ab1-4f97-b201-cc1e7309e16d"
+Parent: "425ac6f3-15e1-47ef-90c6-576c34fee6e0"
+Template: "425ac6f3-15e1-47ef-90c6-576c34fee6e0"
+Path: /sitecore/templates/Foundation/Sublayouts/Parameters/_Left Rail Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f0ef08e-f370-4d89-acd4-8b514b134b38"
+      Hint: ph_gridcolumn_0_ColumnCssClasses
+      Type: Multilist
+      Value: "{DFF73319-4D52-4D5A-BAF5-F2601441DAF3}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180119T144523Z
+    - ID: "d48d9512-e583-41a3-90ac-09400831c9d2"
+      Hint: ph_gridcolumn_1_ColumnCssClasses
+      Type: Multilist
+      Value: "{F04DF7A6-F536-4855-BB16-CB2BDE3B6E19}"

@@ -1,0 +1,18 @@
+﻿---
+ID: "517bf3bf-83cc-4704-bce2-7bc9a87540b2"
+Parent: "b9724b31-b6b2-4797-992f-04ba1b4a3332"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/Sublayouts/Parameters/_Shared Column Parameters/Container Settings/Columns
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Integer
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180801T160203Z

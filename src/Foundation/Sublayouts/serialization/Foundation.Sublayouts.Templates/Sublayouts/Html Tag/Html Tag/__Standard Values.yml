@@ -1,0 +1,21 @@
+﻿---
+ID: "a28f54db-2b60-4606-881d-6e1be88740f0"
+Parent: "0c658a14-a7f9-4fa4-ba98-7ed581f94888"
+Template: "0c658a14-a7f9-4fa4-ba98-7ed581f94888"
+Path: /sitecore/templates/Foundation/Sublayouts/Html Tag/Html Tag/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180117T202320Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "e8a6bf20-aa31-4a9d-ad23-b6573cd52514"
+      Hint: Html Tag
+      Value: $name

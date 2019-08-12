@@ -1,0 +1,25 @@
+﻿---
+ID: "81783c30-08d8-4ec4-9e3e-8db310dc485e"
+Parent: "038224e8-f83b-48d0-990d-044d164cab1e"
+Template: "038224e8-f83b-48d0-990d-044d164cab1e"
+Path: /sitecore/templates/Foundation/Sublayouts/Html Tag Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {038224E8-F83B-48D0-990D-044D164CAB1E}
+    {0C658A14-A7F9-4FA4-BA98-7ED581F94888}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180117T204028Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

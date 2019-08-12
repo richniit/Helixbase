@@ -1,0 +1,26 @@
+﻿---
+ID: "65a6d41f-c01c-4cc5-89dc-a7807b777a86"
+Parent: "ad3ee504-c109-46aa-9689-4c7881fc09e4"
+Template: "ad3ee504-c109-46aa-9689-4c7881fc09e4"
+Path: /sitecore/templates/Foundation/Sublayouts/Parameters/_Multicolumn Equal Sizes Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ce9031b-ff0b-451c-8879-d4ac55d5574e"
+      Hint: ColumnCssClasses
+      Type: Multilist
+      Value: "{362D530F-5AC8-4CC8-8CC9-07C31D374C56}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180117T201705Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "95757897-d614-4e16-8e43-7e9dc6dcfc1b"
+      Hint: RowCssClasses
+      Type: Multilist
+      Value: "{224FA8AE-DB7F-43E9-B6D9-3E7311CAB42E}"

@@ -1,0 +1,18 @@
+﻿---
+ID: "c1b345a6-09f2-428a-84bb-1dd961a3328d"
+Parent: "dc3614f3-549e-425c-8af6-2409afb5fd28"
+Template: "cc9a0249-8bcc-4863-ab2e-ce312bf7d02b"
+Path: /sitecore/system/Modules/Foundation/Sublayouts/Css Classes/Multicolumn/Row
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180118T210343Z
